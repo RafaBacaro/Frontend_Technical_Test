@@ -1,0 +1,25 @@
+<div class="container">
+    <mat-card>
+        <mat-card-title>Weather Emergency Monitoring</mat-card-title>
+        <div class="divider"></div>
+        <div>
+            <h2 class="cityName">{{cityName}}</h2>
+            <div>
+                <div class="condition">
+                    <span>{{type}}</span>
+                    <mat-icon class="material-icons">{{conditionIcon}}</mat-icon>
+                </div>
+                <div class="temperature">
+                    <span>{{temperature}}ºC</span>
+                </div>
+                <!-- <div class="type">
+                    <span>{{subType}}</span>
+                </div> -->
+                <div class="humidity">
+                    <span>Humidity: </span>
+                    <span>{{humidity}}%</span>
+                </div>
+            </div>
+        </div>
+      </mat-card>
+</div>

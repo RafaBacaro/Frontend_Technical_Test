@@ -1,0 +1,38 @@
+mat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.divider {
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.temperature {
+    font-size: 3rem;
+    height: 70px;
+    padding-top: 3px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 0px;
+    height: 40px;
+}
+
+mat-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    font-size: 2.2rem;
+}

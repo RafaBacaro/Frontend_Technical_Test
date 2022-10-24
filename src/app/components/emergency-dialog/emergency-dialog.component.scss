@@ -1,0 +1,35 @@
+.material-icons-outlined {
+    color: #e7bf2c;
+    font-size: 3rem;
+    width: 50px;
+    height: 50px;
+    ;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        margin-bottom: 0px;
+    }
+}
+
+.city,
+.cityContent {
+    display: flex;
+    justify-content: center;
+}
+
+.cityContent {
+    .temp {
+        margin-right: 20px;
+        ;
+    }
+}
+
+.mat-divider {
+    border-width: 2px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,23 @@
+<div class="header">
+    <mat-icon class="material-icons-outlined">warning</mat-icon>
+    <h2 mat-dialog-title>Emergency Alert</h2>
+</div>
+<mat-divider></mat-divider>
+<mat-dialog-content class="mat-typography">
+    <p>The emergency alert was triggered due to the weather conditions of the city</p>
+    <br>
+    <div class="city">
+        <h3>{{data.cityName}}</h3>
+    </div>
+    <div class="cityContent">
+        <span class="temp">Temperature: {{data.temperature}}ºC</span>
+        <span>Humidity: {{data.humidity}}%</span>
+    </div>
+
+
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-raised-button mat-dialog-close (click)="closeDialog()">Cancel</button>
+    <button mat-raised-button color="accent" [mat-dialog-close]="data" cdkFocusInitial (click)="closeDialog()">Send alert</button>
+</mat-dialog-actions>
